@@ -1,0 +1,20 @@
+{
+    "name": "modelo/php",
+    "description": "modelo estrutura mvc usando php",
+    "autoload": {
+        "psr-4": {
+            "Modelo\\Php\\": "src/",
+            "App\\":"../app/",
+            "Src\\":"../src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AlanaFrancino",
+            "email": "71753897+AlanaFrancino@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}

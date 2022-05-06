@@ -1,8 +1,12 @@
 <?php
 header("Content-Type: text/html; charset=utf-8;");
-require_once("../vendor/autoload.php");
+require_once("../src/vendor/autoload.php");
+require_once("../config/config.php");
 
-use App\teste;
+use Src\Classes\ClassRoutes;
 
-$teste = new teste();
+$new = new ClassRoutes();
 
+$teste= $new->getRota();
+
+var_dump($teste);

@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => 'modelo/mvc',
+        'reference' => '33a1841fc7d7cfd9c4f8e15fb187eb7167530315',
+        'name' => 'modelo/php',
         'dev' => true,
     ),
     'versions' => array(
-        'modelo/mvc' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+        'modelo/php' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '33a1841fc7d7cfd9c4f8e15fb187eb7167530315',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(
