@@ -1,9 +1,15 @@
 <?php
 namespace App\Controller;
+use Src\Classes\ClassRender;
+use Src\Interfaces\InterfaceView;
 
-class ControllerHome{
+class ControllerHome extends ClassRender implements InterfaceView {
     public function __construct()
     {
-        echo "Controller do Home!";
+        $this->setTitle("Página Inicial");
+        $this->setDescription("Esse é o nosso site de MVC");
+        $this->setKeywords("mvc completo");
+        $this->setDir("home");
+        $this->renderLayout();
     }
 }

@@ -1,6 +1,6 @@
 <?php
 #Arquivos diretórios raízes
-$PastaInterna="";
+$PastaInterna="GitHub/modelo-MVC-PHP/";
 define('DIRPAGE',"http://{$_SERVER['HTTP_HOST']}/{$PastaInterna}"); //caminho absoluto da pagina
 
 if(substr($_SERVER['DOCUMENT_ROOT'],-1)=='/'){ //verifica se o servidor coloca a barra final na url

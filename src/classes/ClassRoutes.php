@@ -17,7 +17,8 @@ class ClassRoutes{
         $this->Rota=array(
             ""=>"ControllerHome",
             "home"=>"ControllerHome",
-            "sitemap"=>"ControllerSitemap"
+            "sitemap"=>"ControllerSitemap",
+            "contato"=>"ControllerContato"
             #colocar todas as url do sistema 
         );
 
