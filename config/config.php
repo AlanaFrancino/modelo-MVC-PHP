@@ -13,6 +13,7 @@ if(substr($_SERVER['DOCUMENT_ROOT'],-1)=='/'){ //verifica se o servidor coloca a
 define('DIRIMG',DIRPAGE."public/img/");
 define('DIRCSS',DIRPAGE."public/css/");
 define('DIRJS',DIRPAGE."public/js/");
+define('DIRBOOTS',DIRPAGE."public/bootstrap/");
 
 #Acesso ao banco de dados
 define('HOST',"localhost");
