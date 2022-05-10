@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '33a1841fc7d7cfd9c4f8e15fb187eb7167530315',
+        'reference' => 'ed3f83a4d1bfbccb5afcd917c843c6713aff761a',
         'name' => 'modelo/php',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '33a1841fc7d7cfd9c4f8e15fb187eb7167530315',
+            'reference' => 'ed3f83a4d1bfbccb5afcd917c843c6713aff761a',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(
