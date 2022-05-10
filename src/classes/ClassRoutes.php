@@ -18,7 +18,9 @@ class ClassRoutes{
             ""=>"ControllerHome",
             "home"=>"ControllerHome",
             "sitemap"=>"ControllerSitemap",
-            "contato"=>"ControllerContato"
+            "contato"=>"ControllerContato",
+            "cadastro"=>"ControllerCadastro",
+            "login"=>"ControllerLogin"
             #colocar todas as url do sistema 
         );
 

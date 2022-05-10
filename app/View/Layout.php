@@ -16,10 +16,18 @@
     <div class="Nav">
         <a href="<?php echo DIRPAGE; ?>">Home</a>
         <a href="<?php echo DIRPAGE.'contato'; ?>">Contato</a>
+        <a href="<?php echo DIRPAGE.'cadastro'; ?>">Cadastro</a>
+        <a href="<?php echo DIRPAGE.'login'; ?>">Login</a>
     </div>
     
     <div class="Header">
+       
         <img src="<?php echo DIRIMG.'banner.jpg'; ?>" alt="Banner"><br>
+        <?php
+            $BreadCrumb = new Src\Classes\ClassBreadcrumb();
+            $BreadCrumb->addBreadcrumb();
+        ?>
+        <br><br><hr>
         TEL.: (XX) XXXXXXXX <br>
         <?php echo $this->addHeader(); ?>
     </div>
